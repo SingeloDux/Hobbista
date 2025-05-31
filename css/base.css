@@ -103,8 +103,8 @@ body {
 }
 
 .card-noticia .capa {
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 120px;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
@@ -116,7 +116,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    padding-bottom: 32px; /* Espaço para o botão */
+    padding-bottom: 50px; /* Espaço para o botão */
 }
 
 .card-noticia h2 {
