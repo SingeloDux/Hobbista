@@ -1,0 +1,96 @@
+.content-wrapper.sobre {
+  max-width: 800px;
+  margin: 2rem auto 4rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #e0e0e0;
+}
+
+.titulo-pagina {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.descricao-sobre {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  text-align: center;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ccc;
+}
+
+.formulario-contato {
+  background: #121212;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(255, 204, 0, 0.1);
+  border: 1px solid #333;
+}
+
+.formulario-contato h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #ffcc00;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #ccc;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1.5px solid #333;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 1.5rem;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-enviar {
+  display: block;
+  width: 100%;
+  background-color: #ffcc00;
+  color: #1e1e1e;
+  font-weight: 700;
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #e6b800;
+}
+
+/* Footer - mantendo o padrão já usado */
