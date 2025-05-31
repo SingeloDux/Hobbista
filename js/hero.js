@@ -38,7 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "Um hobby não preenche o tempo: ele dá sentido ao tempo livre.",
         "A arte de perder tempo com o que se ama é, na verdade, o tempo mais bem investido.",
         "Entre o caos do mundo e a paz interior, existe um lugar chamado 'meu tempo'.",
-        "Muitos trabalham para viver, poucos vivem — quem tem um hobby sabe a diferença."
+        "Hobbies nos constroem por dentro; passatempos apenas nos distraem por fora — e há valor em ambos, mas não são iguais.",
+        "Muitos trabalham para viver, poucos vivem — quem tem um hobby sabe a diferença.",
+        "Todo hobby pode servir de passatempo, mas nem todo passatempo é um hobby"
     ];
 
     const bloco = document.getElementById("frase-hobby");
