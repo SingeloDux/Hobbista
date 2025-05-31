@@ -1,0 +1,42 @@
+.card-anuncio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.card-anuncio img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #ffcc00;
+}
+
+.card-anuncio p {
+    font-size: 0.75em;
+    color: #ddd;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.btn-anuncio {
+    align-self: flex-start;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px 0 6px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-anuncio:hover {
+    background-color: #000;
+    color: #ffcc00;
+}

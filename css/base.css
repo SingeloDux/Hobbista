@@ -109,11 +109,14 @@ body {
     border-radius: 8px;
     flex-shrink: 0;
 }
-.card-noticia .conteudo {
+
+.card-noticia .conteudo-noticia {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    padding-bottom: 32px; /* Espaço para o botão */
 }
 
 .card-noticia h2 {
@@ -130,13 +133,16 @@ body {
 }
 
 .card-noticia .btn-leia{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background-color: #ffcc00;
     color: #000;
     text-decoration: none;
     font-size: 0.8em;
     font-weight: bold;
     padding: 6px 12px;
-    border-radius: 6px;
+    border-radius: 6px 0 6px 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -145,31 +151,99 @@ body {
     color: #ffcc00;
 }
 
-.eventos {
+.sidebar {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     background-color: #1e1e1e;
-    padding: 20px;
+    padding: 10px;
     border-radius: 0 8px 8px 0;
 }
 
-.eventos h2{
-    color: #ffcc00;
+.sidebar h2{
+    color: #000;
     text-align: center;
     font-size: 1.3em;
-    background-color: #333333;
+    background-color: #ffcc00;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
+    font-weight: bold;
 }
+
 .card-evento {
-    background-color: #333333;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    border-bottom: 2px solid #ffcc00;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #ffcc00;
+  gap: 12px;
+}
+
+.data-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  background-color: #444;
+  border-radius: 8px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+
+.data-box .dia {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffcc00;
+  line-height: 1;
+}
+
+.data-box .mes {
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.info-evento {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-evento h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 600;
+  color: #ffcc00;
+}
+
+.linha-inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.descricao-evento {
+  margin: 0;
+  font-size: 0.75em;
+  color: #ddd;
+}
+
+.btn-evento {
+    align-self: flex-start;
+  background-color: transparent;
+  color: #ffcc00;
+  font-size: 0.85em;
+  text-decoration: underline;
+  margin-left: 10px;
+  white-space: nowrap;
 }
 
 
