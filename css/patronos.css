@@ -1,0 +1,112 @@
+.rede-apoio {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.patrocinadores {
+    flex: 2;
+}
+
+.patrocinadores h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+.grid-patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-patrocinador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: inherit;
+}
+
+.card-patrocinador:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card-patrocinador img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+  border: 2px solid #ccc;
+}
+
+.info-patrocinador h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-patrocinador p {
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0 0;
+  color: #ffcc00;
+}
+
+.card-patrocinador span {
+    color: #e0e0e0;
+    font-size: 0.9em;
+}
+
+.apoiadores {
+    flex: 1;
+}
+
+.apoiadores h2{
+    color: #000;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #ffcc00;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.grid-apoiadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    border: 2px solid #ffcc00;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.grid-apoiadores:hover{
+    border: none;
+    transition: transform 0.3s ease-out;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffcc00;
+    transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
