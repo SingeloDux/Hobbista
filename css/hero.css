@@ -3,6 +3,8 @@
     gap: 20px;
     align-items: center;
     margin-top: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #333;
 }
 
 .slideshow {

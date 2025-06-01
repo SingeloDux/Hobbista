@@ -1,8 +1,3 @@
-<!--
-Desenvolva um site completo em HTML, CSS e JS com base num conceito livre definido por si 
-(ex.: portfólio pessoal, página institucional, campanha educativa, exposição artística, apresentação de projecto académico, entre outros). 
-A actividade termina com a publicação online do site num serviço de hospedagem gratuito e envio do link público ao docente.
--->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,9 +6,8 @@ A actividade termina com a publicação online do site num serviço de hospedage
     <meta name="description" content="Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.">
     <title>Hobbista - Homepage</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/eventos.css">
     <link rel="stylesheet" href="css/ads.css">
-    <script src="js/hero.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -25,80 +19,24 @@ A actividade termina com a publicação online do site num serviço de hospedage
             </div>
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="#" class="ativo">Home</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="ativo">Eventos</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </header>
         <main class="content-wrapper">
-            <section class="destaques">
-                <div class="slideshow">
-                    <div class="slides">
-                        <img src="img/slide01.jpg" alt="Slide 1" class="slide ativo">
-                        <img src="img/article01.webp" alt="Slide 2" class="slide">
-                        <img src="img/slide05.png" alt="Slide 3" class="slide">
-                        <img src="img/slide03.webp" alt="Slide 4" class="slide">
-                        <img src="img/slide04.jpg" alt="Slide 5" class="slide">
-                        <img src="img/slide02.webp" alt="Slide 6" class="slide">
-                        <img src="img/slide07.jpg" alt="Slide 7" class="slide">
-                    </div>
-                    <button class="seta esquerda">&#10094;</button>
-                    <button class="seta direita">&#10095;</button>
-                </div>
-                <aside class="curiosidades">
-                    <h1>Você sabia que? </h1>
-                    <blockquote id="frase-hobby">
-                        
-                    </blockquote>
-                    <button class="explorar">Me inspire</button>
-                </aside>
-            </section>
             <section class="conteudo">
                 <div class="artigos">
-                    <article class="card-noticia">
-                    <img src="img/article01.webp" alt="Passatempo ou hobby?" class="capa">
-                    <div class="conteudo-noticia">
-                        <h2>Passatempo ou hobby? A diferença que (quase) ninguém nota</h2>
-                        <p>À primeira vista, hobby e passatempo parecem a mesma coisa: atividades para preencher o tempo livre...</p>
-                        <a href="#" class="btn-leia">Leia mais</a>
+                     <div class="conteudo-noticia">
+                        <h2>NENHUM EVENTO POR MOSTRAR</h2>
+                        <img src="img/slide01.jpg" width="100%" alt="404" class="">
+                        <a href="index.html" class="default"> Clique aqui para voltar ao inicio</a>
                     </div>
                     </article>
 
-                    <article class="card-noticia">
-                    <img src="img/article02.jpg" alt="Estudos" class="capa">
-                    <div class="conteudo-noticia">
-                        <h2>O que a ciência diz sobre os benefícios dos hobbies: estudos que vão te surpreender</h2>
-                        <p>Diversos estudos recentes destacam que hobbies vão muito além do lazer. Pesquisas em neurociência...</p>
-                        <a href="#" class="btn-leia">Leia mais</a>
-                    </div>
-                    </article>
 
-                    <article class="card-noticia">
-                    <img src="img/article03.jpg" alt="Estudos" class="capa">
-                    <div class="conteudo-noticia">
-                        <h2>Como escolher um hobby que realmente combina com você — e não vai virar mais uma “lista de tarefas”</h2>
-                        <p>Escolher um hobby pode parecer difícil, mas a chave é focar no que te dá prazer, não no que “deveria”...</p>
-                        <a href="#" class="btn-leia">Leia mais</a>
-                    </div>
-                    </article>
-                    <article class="card-noticia">
-                    <img src="img/article04.jpg" alt="Estudos" class="capa">
-                    <div class="conteudo-noticia">
-                        <h2>Quando hobby vira profissão: o que é possível e o que é mito nessa jornada</h2>
-                        <p>Transformar um hobby em carreira é o sonho de muita gente, mas nem sempre é simples. Alguns...</p>
-                        <a href="#" class="btn-leia">Leia mais</a>
-                    </div>
-                    </article>
-                    <article class="card-noticia">
-                    <img src="img/article05.jpg" alt="Estudos" class="capa">
-                    <div class="conteudo-noticia">
-                        <h2>Por que ter um hobby é essencial para o bem-estar de todo mundo</h2>
-                        <p>Ter um hobby não é só “uma coisa legal para passar o tempo”. Pesquisas mostram que atividades que...</p>
-                        <a href="#" class="btn-leia">Leia mais</a>
-                    </div>
-                    </article>
                 </div>
 
                 <aside class="sidebar">
@@ -202,8 +140,6 @@ A actividade termina com a publicação online do site num serviço de hospedage
                         </div>
                     </div>
                 </aside>
-
-
             </section>
         </main>
         <footer class="rodape">

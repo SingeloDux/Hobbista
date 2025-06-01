@@ -1,78 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sobre | Hobbista</title>
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/sobre.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.">
+    <title>Sobre o Hobbista</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/ads.css">
+    <script src="js/contact-form.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="cabecalho">
-      <div class="logotipo">
-        <h1 class="logo">Hobbista ✨</h1>
-        <p class="slogan">Explore, crie, relaxe – viva seus hobbies.</p>
-      </div>
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="sobre.html" class="ativo">Sobre</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="logotipo">
+                <h1 class="logo">Hobbista ✨</h1>
+                <p class="slogan">Explore, crie, relaxe – viva seus hobbies.</p>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#" class="ativo">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content-wrapper">
+          <h2 class="titulo-pagina">Sobre o Hobbista</h2>
+          <p class="descricao-sobre">
+            Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.
+          </p>
 
-    <main class="content-wrapper sobre">
-      <h2 class="titulo-pagina">Sobre o Hobbista</h2>
-      <p class="descricao-sobre">
-        Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.
-      </p>
+          <section class="formulario-contato">
+            <h3>Fale conosco</h3>
+            <form id="form-contato" action="#" method="POST" novalidate>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
 
-      <section class="formulario-contato">
-        <h3>Fale conosco</h3>
-        <form id="form-contato" action="#" method="POST" novalidate>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
 
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
-
-          <button type="submit" class="btn-enviar">Enviar</button>
-        </form>
-      </section>
-    </main>
-
-    <footer class="rodape">
-      <p>&copy; 2025 <strong>Hobbista</strong>. Todos os direitos reservados. Desenvolvido por <a href="https://singelodux.blogspot.com" target="_blank" rel="noopener noreferrer">Eduardo Simiao Come</a></p>
-    </footer>
-  </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const form = document.getElementById('form-contato');
-      const mensagemSucesso = document.createElement('p');
-      mensagemSucesso.style.color = '#ffcc00';
-      mensagemSucesso.style.textAlign = 'center';
-      mensagemSucesso.style.marginTop = '1rem';
-      mensagemSucesso.style.fontWeight = '700';
-      mensagemSucesso.textContent = 'Mensagem enviada com sucesso! Obrigado pelo contato.';
-
-      form.addEventListener('submit', function (e) {
-        e.preventDefault(); // evita o recarregamento da página
-        // Remove mensagem anterior se existir
-        if (form.contains(mensagemSucesso)) {
-          form.removeChild(mensagemSucesso);
-        }
-        form.appendChild(mensagemSucesso);
-        form.reset(); // limpa o formulário
-      });
-    });
-  </script>
+              <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+          </section>
+        </main>
+        <footer class="rodape">
+            <p>&copy; 2025 <strong>Hobbista</strong>. Todos os direitos reservados. Desenvolvido por <a href="https://singelodux.blogspot.com" target="_blank" rel="noopener noreferrer">Eduardo Simiao Come</a></p>
+        </footer>
+    </div>
+    
 </body>
 </html>

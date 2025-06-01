@@ -1,75 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Blog do Hobbista - artigos sobre hobbies, bem-estar, criatividade e mais.">
-  <title>Blog | Hobbista</title>
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/blog.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.">
+    <title>Sobre o Hobbista</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/ads.css">
+    <script src="js/contact-form.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="cabecalho">
-      <div class="logotipo">
-        <h1 class="logo">Hobbista ✨</h1>
-        <p class="slogan">Explore, crie, relaxe – viva seus hobbies.</p>
-      </div>
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="blog.html" class="ativo">Blog</a></li>
-          <li><a href="#">Sobre</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="logotipo">
+                <h1 class="logo">Hobbista ✨</h1>
+                <p class="slogan">Explore, crie, relaxe – viva seus hobbies.</p>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="#" class="ativo">Blog</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content-wrapper">
+          <section class="conteudo">
+            <section class="grelha-artigos">
+              <a href="#" class="artigos card-clicavel">
+              <img src="img/article01.webp" alt="Passatempo ou hobby?" class="capa">
+              <div class="overlay">
+                  <h3>Passatempo ou hobby? A diferença que (quase) ninguém nota</h3>
+              </div>
+              </a>
 
-    <main class="content-wrapper blog">
-      <h2 class="titulo-pagina">Artigos do Blog</h2>
-      <section class="grelha-artigos">
-        <a href="#" class="card-clicavel">
-        <img src="img/article01.webp" alt="Passatempo ou hobby?" class="capa">
-        <div class="overlay">
-            <h3>Passatempo ou hobby? A diferença que (quase) ninguém nota</h3>
-        </div>
-        </a>
+              <a href="#" class="card-clicavel">
+              <img src="img/article02.jpg" alt="Estudos" class="capa">
+              <div class="overlay">
+                  <h3>O que a ciência diz sobre os benefícios dos hobbies</h3>
+              </div>
+              </a>
 
-        <a href="#" class="card-clicavel">
-        <img src="img/article02.jpg" alt="Estudos" class="capa">
-        <div class="overlay">
-            <h3>O que a ciência diz sobre os benefícios dos hobbies</h3>
-        </div>
-        </a>
+              <a href="#" class="card-clicavel">
+              <img src="img/article03.jpg" alt="Escolha de hobbies" class="capa">
+              <div class="overlay">
+                  <h3>Como escolher um hobby que realmente combina com você</h3>
+              </div>
+              </a>
 
-        <a href="#" class="card-clicavel">
-        <img src="img/article03.jpg" alt="Escolha de hobbies" class="capa">
-        <div class="overlay">
-            <h3>Como escolher um hobby que realmente combina com você</h3>
-        </div>
-        </a>
+              <a href="#" class="card-clicavel">
+              <img src="img/article04.jpg" alt="Hobby como profissão" class="capa">
+              <div class="overlay">
+                  <h3>Quando hobby vira profissão: o que é possível e o que é mito</h3>
+              </div>
+              </a>
 
-        <a href="#" class="card-clicavel">
-        <img src="img/article04.jpg" alt="Hobby como profissão" class="capa">
-        <div class="overlay">
-            <h3>Quando hobby vira profissão: o que é possível e o que é mito</h3>
-        </div>
-        </a>
+              <a href="#" class="card-clicavel">
+              <img src="img/article05.jpg" alt="Bem-estar" class="capa">
+              <div class="overlay">
+                  <h3>Por que ter um hobby é essencial para o bem-estar</h3>
+              </div>
+              </a>
 
-        <a href="#" class="card-clicavel">
-        <img src="img/article05.jpg" alt="Bem-estar" class="capa">
-        <div class="overlay">
-            <h3>Por que ter um hobby é essencial para o bem-estar</h3>
-        </div>
-        </a>
+            </section>
+            <aside class="sidebar">
 
-      </section>
-    </main>
+                <h2>Anúncio</h2>
+                <div class="card-anuncio">
+                    <img src="img/bookclub.jpeg" alt="Anúncio promocional">
+                    <p>Conheça o novo clube de hobbies da sua cidade! Atividades, oficinas e diversão para todas as idades.</p>
+                    <a href="#" class="btn-anuncio">Saiba mais</a>
+                </div>
 
-    <footer class="rodape">
-      <p>&copy; 2025 <strong>Hobbista</strong>. Todos os direitos reservados. Desenvolvido por <a href="https://singelodux.blogspot.com" target="_blank" rel="noopener noreferrer">Eduardo Simiao Come</a></p>
-    </footer>
-  </div>
+                <h2>Proximos Eventos</h2>
+
+                <!-- Clube do Livro -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">23</span>
+                        <span class="mes">ABR</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Clube do Livro: Leitura e Troca</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Celebre o Dia Mundial do Livro com leitura e troca de obras.</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cosplay -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">25</span>
+                        <span class="mes">MAI</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Parada Cosplay Hobbista</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Viva personagens no Dia do Orgulho Nerd/Geek com criatividade.</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Festival Música -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">21</span>
+                        <span class="mes">JUN</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Festival Música e Hobbies</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Mostre seu som no Dia Mundial da Música!</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drift and Racing -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">13</span>
+                        <span class="mes">JUL</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Drift & Racing Experience</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Velocidade e adrenalina no Dia Mundial do Rock e motores.</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campeonato Gamer -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">29</span>
+                        <span class="mes">AGO</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Campeonato Gamer Hobbista</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Compita ou torça no Dia do Gamer com torneios de e-Sport.</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Concurso de Programação -->
+                <div class="card-evento">
+                    <div class="data-box">
+                        <span class="dia">13</span>
+                        <span class="mes">SET</span>
+                    </div>
+                    <div class="info-evento">
+                        <h3>Code Challenge Hobbista</h3>
+                        <div class="linha-inferior">
+                            <p class="descricao-evento">Desafios de programação no Dia do Programador.</p>
+                            <a href="#" class="btn-evento">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            </section>
+        </main>
+        <footer class="rodape">
+            <p>&copy; 2025 <strong>Hobbista</strong>. Todos os direitos reservados. Desenvolvido por <a href="https://singelodux.blogspot.com" target="_blank" rel="noopener noreferrer">Eduardo Simiao Come</a></p>
+        </footer>
+    </div>
+    
 </body>
 </html>
